@@ -36,7 +36,7 @@ export default function Onboarding({ navigation }) {
   return (
     <TelaDeFundo>
       <View style={styles.container}>
-        <StatusBar barStyle='dark-content' backgroundColor='#FFF' />
+        <StatusBar barStyle='dark-content' backgroundColor='#FFF' translucent={false} />
         <Image
           source={require('../../assets/logo.png')}
           style={styles.logo}
