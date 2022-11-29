@@ -1,4 +1,10 @@
 import { StyleSheet } from "react-native";
+import { Dimensions } from "react-native";
+
+const screenHeight = Dimensions.get('screen').height;
+const heightImage = screenHeight * 0.35;
+const widthImage = (36 / 29) * heightImage;
+
 
 export default StyleSheet.create({
   container: {
@@ -19,8 +25,8 @@ export default StyleSheet.create({
     paddingHorizontal: 20,
   },
   medicaImg: {
-    width: 360,
-    height: 290,
+    width: widthImage,
+    height: heightImage,
   },
   infoArea: {
     width: '100%',

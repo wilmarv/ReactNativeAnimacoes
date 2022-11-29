@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { View, Text, StatusBar, Image, TouchableOpacity, FlatList } from 'react-native';
+import { View, Text, Image, TouchableOpacity, FlatList } from 'react-native';
+import { StatusBar } from 'expo-status-bar';
 import FundoOndulado from '../../componentes/FundoOndulado';
 import { TelaDeFundo } from '../../componentes/TelaDeFundo';
 import { Formulario } from '../../componentes/Formulario';
